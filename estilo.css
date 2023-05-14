@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 *{
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +14,7 @@ header{
     margin-right: 6em;
 }
 a{
+    font-size: .8rem;
     margin: 0 .5em;
 }
 .get{
@@ -26,6 +29,8 @@ a{
     
 }
 .seccionuno{
+    /* width: 100vw;
+    height: 100vh; */
     display: flex;
     margin: 4em 3.5em;
     justify-content: space-between;
@@ -61,3 +66,75 @@ input{
     margin-top: 1.5em;
     margin-bottom: 2em;
 }
+
+/* finaliza section 1 */
+
+.secciondos{
+    /* background-color: red; */
+    width: 90vw;
+    height: 100vh;
+    margin: 4em 3.5em;
+}
+.tituloysub{
+    display: flex;
+    margin-bottom: 4em;
+    /* background-color: red; */
+}
+.casas{
+    /* background-color: red; */
+    width: 88vw;
+    display: flex;
+
+}
+.casauno{
+    flex-grow: 1;
+}
+.casados{
+    flex-grow: 1;
+}
+.casatres{
+    flex-grow: 1;
+}
+.casacuatro{
+    flex-grow: 1;
+}
+.ubiuno{
+    display: flex;
+}
+.ubidos{
+    display: flex;
+}
+.ubitres{
+    display: flex;
+}
+.ubicuatro{
+    display: flex;
+}
+.textybotondos{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.textder{
+    color: gray;
+    margin-left: 13em;
+}
+.titulodos{
+    font-size: 2.2rem;
+    color: #2D2D2D;
+}
+p{
+    font-size: .9rem;
+    color: gray;
+}
+.botonsee{
+    margin-left: 5em;
+    padding: .8em 2em;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+/* fin de la segunda section */
+
