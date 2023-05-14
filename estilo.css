@@ -10,8 +10,8 @@ header{
     margin: 1.5em 3em;
 }
 .navbar{
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-left: 8em;
+    margin-right: 8em;
 }
 a{
     font-size: .8rem;
@@ -22,15 +22,21 @@ a{
     color: white;
     border: 1px solid #3952B6;
     border-radius: 15px;
-    padding: .5em 1.2em;
+    padding: .4em 1.4em;
 }
 .estad{
     display: flex;
-    
+    /* background-color: red; */
+    /* justify-content: space-evenly;
+    margin-left: -3em; */
 }
+.estadmedio{
+    margin: 0 2em;
+}
+
 .seccionuno{
-    /* width: 100vw;
-    height: 100vh; */
+    /* width: 100vw;*/
+    height: 100vh; 
     display: flex;
     margin: 4em 3.5em;
     justify-content: space-between;
@@ -73,7 +79,7 @@ input{
     /* background-color: red; */
     width: 90vw;
     height: 100vh;
-    margin: 4em 3.5em;
+    margin: -8em 3.5em;
 }
 .tituloysub{
     display: flex;
@@ -85,6 +91,25 @@ input{
     width: 88vw;
     display: flex;
 
+}
+.imgcasauno{
+    border-radius: 10px;
+    height: 170px;
+    width: 210px;
+    /* background-image: url(house2.jpg); */
+    background-size: 210px 170px;
+    background-color: red;
+    
+}
+.preciouno{
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    /* margin-top: 1em; */
+    background-color: blue;
 }
 .casauno{
     flex-grow: 1;
@@ -125,16 +150,47 @@ input{
     color: #2D2D2D;
 }
 p{
-    font-size: .9rem;
+    font-size: .8rem;
     color: gray;
 }
 .botonsee{
-    margin-left: 5em;
-    padding: .8em 2em;
+    margin-left: 12em;
+    padding: .6em 2em;
     border-radius: 20px;
     border: 1px solid gray;
     background-color: white;
 }
 
 /* fin de la segunda section */
+
+.secciontres{
+
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 4em 1em;
+    justify-content: space-evenly;
+    height: 80vh;
+    line-height: 1.5rem;
+}
+.titulov{
+    font-size: 2rem;
+    margin-bottom: .8em;
+}
+.titulom{
+    font-size: 2rem;
+    margin: .8em 0;
+}
+.casatresizq{
+    margin-top: 1em;
+    border-radius: 15px;
+    width: 375px;
+    height: 250px;
+}
+.casatresder{
+    border-radius: 15px;
+    width: 375px;
+    height: 250px;
+}
+
+/* fin de la tercer section */
 
