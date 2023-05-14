@@ -194,3 +194,57 @@ p{
 
 /* fin de la tercer section */
 
+.seccioncuatro{
+    height: 100vh;
+    margin: 0 3.5em;
+}
+.tituloScuatro{
+    font-size: 2rem;
+}
+.divuno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divdos{
+    display: flex;
+    margin: 4em 0;
+    justify-content: space-between;
+    line-height: 1.5rem;
+}
+.titulounodivdos{
+    margin: .7em 0;
+}
+.titulodosdivdos{
+    margin: .7em 0;
+}
+.titulotresdivdos{
+    margin: .7em 0;
+}
+.titulocuatrodivdos{
+    margin: .7em 0;
+}
+
+h3{
+    width: 15px;
+    /* height: 5px; */
+    border: 1px solid #22242F;
+    border-radius: 50%;
+    padding: .5em .7em;
+    background-color: #22242F;
+    color: white;
+}
+.divtres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botonfaq{
+    border: 1px solid gray;
+    border-radius: 2em;
+    padding: .7em 2.2em;
+    background-color: white;
+}
+
+/* fin de la cuarta section */
+
