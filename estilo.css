@@ -297,3 +297,28 @@ p{
 }
 
 /* fin de la quinta section */
+
+.seccionseis{
+    margin: 6em 3.5em;
+}
+.tituloSseis{
+    font-size: 2rem;
+}
+.tituloysubseis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+.reseñas{
+    display: flex;
+    justify-content: space-between;
+}
+.reseñauno{
+    border: 1px solid gray;
+    padding: .6em .8em;
+    border-radius: 10px;
+}
+
+/* fin de la sexta section */
+
