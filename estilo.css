@@ -248,3 +248,52 @@ h3{
 
 /* fin de la cuarta section */
 
+.seccioncinco{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3.5em;
+}
+.imgcasaS5{
+    width: 40vw;
+    height: 85vh;
+    border-radius: 1em;
+}
+.tituloScinco{
+    font-size: 2rem;
+}
+.textScinco{
+    margin: 1.5em 0;
+    line-height: 1.5rem;
+}
+.checkuno{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 1em 0.5em;
+
+}
+.checkdos{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+
+}
+.checktres{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+}
+p{
+    line-height: 1.5rem;
+}
+.imgcheckuno{
+    padding-right:0.6em;
+}
+.imgcheckdos{
+    padding-right:0.6em;
+}
+.imgchecktres{
+    padding-right:0.6em;
+}
+
+/* fin de la quinta section */
