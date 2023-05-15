@@ -42,7 +42,7 @@ a{
     justify-content: space-between;
 }
 .buscador{
-    background-color: rgb(238, 238, 238);
+    background-color: #FAFAFA;
     width: 26em;
     padding: .4em 1.2em;
     padding-right: .3em;
@@ -52,7 +52,7 @@ a{
 input{
     outline: none;
     border: none;
-    background-color: rgb(238, 238, 238);
+    background-color: #FAFAFA;
     width: 22em;
 }
 
@@ -322,3 +322,114 @@ p{
 
 /* fin de la sexta section */
 
+.seccionsiete{
+    display: flex;
+    margin: 0 3.5em;
+    justify-content: space-between;
+}
+.tituloSsiete{
+    font-size: 3rem;
+    margin-bottom: .3em;
+}
+.imgcasaSsiete{
+    border-radius: 10px;
+    width: 350px;
+    height: 392px;
+}
+.botonquote{
+    border: 1px solid #3952B6;
+    color: white;
+    background-color: #3952B6;
+    border-radius: 2em;
+    padding: .7em 2.3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.casadentro{
+    display: flex;
+    justify-content: space-between;
+}
+.imgcuartouno{
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+.imgcuartodos{
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+.imgcuartotres{
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+}
+
+/* fin de la septima section */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 4em 0em;
+    background-color: #FAFAFA;
+    padding: 4em 3.5em;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    padding-bottom: .5em;
+}
+.infodos{
+
+    line-height: 1.5rem;
+}
+.tituloinfodos{
+    padding-bottom: .8em;
+}
+.tituloinfotres{
+    padding-bottom: .8em;
+}
+.ubicacion{
+    display: flex;
+}
+.iconomap{
+    width: 2vw;
+    padding-right: .3em;
+}
+.telefono{
+    display: flex;
+    align-items: center;
+    padding: .4em 0;
+}
+.iconotel{
+    width: 1.5vw;
+    height: 2.5vh;
+    padding-right: .6em;
+}
+.mail{
+    display: flex;
+    align-items: center;
+
+}
+.iconomail{
+    width: 1.7vw;
+    height: 2.7vh;
+    padding-right: .5em;
+}
+.email{
+    margin-top: 1.2em;
+    margin-bottom: .5em;
+    width: 17vw;
+    padding: .5em 1em;
+    border: 1px solid black;
+    border-radius: 13px;
+    background-color: #FAFAFA;
+}
+.botonsubmit{
+    padding: .5em 5.9em;
+    border: 1px solid #3952B6;
+    border-radius: 15px;
+    background-color: #3952B6;
+    color: white;
+}
