@@ -9,168 +9,271 @@ header{
     align-items: center;
     margin: 1.5em 3em;
 }
-.navbar{
-    margin-left: 8em;
-    margin-right: 8em;
+p{
+    line-height: 1.5rem;
+    font-size: .8rem;
+    color: gray;
 }
 a{
     font-size: .8rem;
     margin: 0 .5em;
 }
+a:hover{
+    text-decoration: underline;
+}
+.logop{
+    width: 2.5vw;
+    height: 4vh;
+    padding-left: .4em;
+    padding-right: .2em;
+}
+.navbar{
+    padding: 0 8.7em;
+}
+.flecha{
+    font-size: .6rem;
+    padding-left: .4em;
+}
 .get{
+    font-size: .7rem;
     background-color: #3952B6;
     color: white;
     border: 1px solid #3952B6;
-    border-radius: 15px;
-    padding: .4em 1.4em;
+    border-radius: 2em;
+    padding: .5em 1.5em;
+    transition: transform .5s;
+}
+.get:hover{
+    transform: scale(1.2);
 }
 .estad{
     display: flex;
-    /* background-color: red; */
-    /* justify-content: space-evenly;
-    margin-left: -3em; */
 }
 .estadmedio{
     margin: 0 2em;
 }
-
 .seccionuno{
-    /* width: 100vw;*/
     height: 100vh; 
     display: flex;
     margin: 4em 3.5em;
     justify-content: space-between;
 }
-.buscador{
-    background-color: #FAFAFA;
-    width: 26em;
-    padding: .4em 1.2em;
-    padding-right: .3em;
-    border-radius: 25px;
-    margin-bottom: 2.5em;
-}
-input{
-    outline: none;
-    border: none;
-    background-color: #FAFAFA;
-    width: 22em;
-}
-
-.search{
-    /* margin-left: 8.2em; */
-    padding: .8em 2.3em;
-    background-color: #3952B6;
-    color: white;
-    border-radius: 20px;
-    border: none;
-}
 .titulouno{
     font-size: 3rem;
 }
 .textouno{
-    color: gray;
     margin-top: 1.5em;
     margin-bottom: 2em;
 }
+.buscador{
+    background-color: #FAFAFA;
+    width: 43vw;
+    padding: .4em 1.2em;
+    padding-right: .3em;
+    border-radius: 2em;
+    margin-bottom: 2.5em;
+}
+.inputbuscador{
+    outline: none;
+    border: none;
+    background-color: #FAFAFA;
+    width: 31vw;
+}
+.lupa{
+    width: 1vw;
+}
+.search{
+    padding: .8em 2.3em;
+    background-color: #3952B6;
+    color: white;
+    border-radius: 2em;
+    border: none;
+    transition: transform .5s;
+}
+.search:hover{
+    transform: scale(1.1);
+}
+.imgunoSuno{
+    width: 35vw;
+    height: 68vh;
+    border-radius: 1em;
+}
 
-/* finaliza section 1 */
+/* ---------finaliza section 1-----------*/
 
 .secciondos{
-    /* background-color: red; */
     width: 90vw;
     height: 100vh;
-    margin: -8em 3.5em;
+    margin-top: -8em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    margin-bottom: -4em;
 }
 .tituloysub{
     display: flex;
     margin-bottom: 4em;
-    /* background-color: red; */
 }
-.casas{
-    /* background-color: red; */
-    width: 88vw;
-    display: flex;
+.titulodos{
+    font-size: 2.2rem;
+    color: #2D2D2D;
+}
+.textder{
+    color: gray;
+    margin-left: 13em;
+}
 
+.casas{
+    width: 87vw;
+    display: flex;
+    justify-content: space-between;
 }
+
 .imgcasauno{
-    border-radius: 10px;
-    height: 170px;
-    width: 210px;
-    /* background-image: url(house2.jpg); */
-    background-size: 210px 170px;
-    background-color: red;
-    
-}
-.preciouno{
-    width: 4em;
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    padding: .5em 1em;
-    /* margin-top: 1em; */
-    background-color: blue;
+    border-radius: 1em;
+    height: 23vh;
+    width: 18vw;
+    background-image: url(house1.jpg);
+    /* background-size: 210px 170px; */
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    margin-bottom: .8em;
 }
 .casauno{
-    flex-grow: 1;
+    transition: transform .5s;
 }
-.casados{
-    flex-grow: 1;
+.casauno:hover{
+    transform: scale(1.1);
 }
-.casatres{
-    flex-grow: 1;
-}
-.casacuatro{
-    flex-grow: 1;
+.preciouno{
+    padding: .2em 1.3em;
+    border: 1px solid black;
+    border-radius: 2em;
+    background-color: black;
+    color: white; 
+    width: 4em;
+    
 }
 .ubiuno{
     display: flex;
+    padding-top: .7em;
+}
+.ubis{
+    width: 2vw;
+    height: 3vh;
+    padding-right: .3em;
+}
+.imgcasados{
+    border-radius: 1em;
+    height: 23vh;
+    width: 18vw;
+    background-image: url(house2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    margin-bottom: .8em;
+}
+.casados{
+    transition: transform .5s;
+}
+.casados:hover{
+    transform: scale(1.1);
+}
+.preciodos{
+    padding: .2em 1.3em;
+    border: 1px solid black;
+    border-radius: 2em;
+    background-color: black;
+    color: white; 
+    width: 4em;
 }
 .ubidos{
     display: flex;
+    padding-top: .7em;
+}
+.imgcasatres{
+    border-radius: 1em;
+    height: 23vh;
+    width: 18vw;
+    background-image: url(house3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    margin-bottom: .8em;
+}
+.casatres{
+    transition: transform .5s;
+}
+.casatres:hover{
+    transform: scale(1.1);
+}
+.preciotres{
+    padding: .2em 1.3em;
+    border: 1px solid black;
+    border-radius: 2em;
+    background-color: black;
+    color: white; 
+    width: 4em;
+
 }
 .ubitres{
     display: flex;
+    padding-top: .7em;
+}
+.imgcasacuatro{
+    border-radius: 1em;
+    height: 23vh;
+    width: 18vw;
+    background-image: url(house4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    margin-bottom: .8em;
+}
+.casacuatro{
+    transition: transform .5s;
+}
+.casacuatro:hover{
+    transform: scale(1.1);
+}
+.preciocuatro{
+    padding: .2em 1.3em;
+    border: 1px solid black;
+    border-radius: 2em;
+    background-color: black;
+    color: white; 
+    width: 4em;
 }
 .ubicuatro{
     display: flex;
+    padding-top: .7em;
 }
 .textybotondos{
     margin-top: 5em;
     display: flex;
     align-items: center;
 }
-
-.textder{
-    color: gray;
-    margin-left: 13em;
-}
-.titulodos{
-    font-size: 2.2rem;
-    color: #2D2D2D;
-}
-p{
-    font-size: .8rem;
-    color: gray;
-}
 .botonsee{
     margin-left: 12em;
     padding: .6em 2em;
-    border-radius: 20px;
+    border-radius: 2em;
     border: 1px solid gray;
     background-color: white;
+    transition: transform .5s;
 }
-
-/* fin de la segunda section */
+.botonsee:hover{
+    transform: scale(1.1);
+}
+/* -------fin de la segunda section------- */
 
 .secciontres{
-
+    height: 65vh;
     background-color: #FAFAFA;
     display: flex;
     padding: 4em 1em;
     justify-content: space-evenly;
-    height: 80vh;
     line-height: 1.5rem;
+    align-items: center;
 }
 .titulov{
     font-size: 2rem;
@@ -182,21 +285,23 @@ p{
 }
 .casatresizq{
     margin-top: 1em;
-    border-radius: 15px;
-    width: 375px;
-    height: 250px;
+    border-radius: 1em;
+    width: 38vw;
+    height: 40vh;
 }
 .casatresder{
-    border-radius: 15px;
-    width: 375px;
-    height: 250px;
+    border-radius: 1em;
+    width: 38vw;
+    height: 40vh;
 }
 
-/* fin de la tercer section */
+/* -------fin de la tercer section-------- */
 
 .seccioncuatro{
-    height: 100vh;
+    height: 85vh;
     margin: 0 3.5em;
+    padding-top: 4em;
+    align-items: center;
 }
 .tituloScuatro{
     font-size: 2rem;
@@ -225,9 +330,8 @@ p{
     margin: .7em 0;
 }
 
-h3{
-    width: 15px;
-    /* height: 5px; */
+.numScuatro{
+    width: 1.5vw;
     border: 1px solid #22242F;
     border-radius: 50%;
     padding: .5em .7em;
@@ -244,19 +348,17 @@ h3{
     border-radius: 2em;
     padding: .7em 2.2em;
     background-color: white;
+    transition: transform .5s;
 }
-
-/* fin de la cuarta section */
+.botonfaq:hover{
+    transform: scale(1.1);
+}
+/* --------fin de la cuarta section------- */
 
 .seccioncinco{
     display: flex;
     justify-content: space-between;
     margin: 0 3.5em;
-}
-.imgcasaS5{
-    width: 40vw;
-    height: 85vh;
-    border-radius: 1em;
 }
 .tituloScinco{
     font-size: 2rem;
@@ -268,35 +370,45 @@ h3{
 .checkuno{
     display: flex;
     justify-content: space-between;
-    border: 1px solid gray;
+    border-radius: 1em;
     padding: 1em 0.5em;
-
+    box-shadow: 0 3em 3em #EEEEEE;
+}
+.imgcheckuno{
+    padding-right:0.7em;
+}
+.subunoScinco{
+    padding-bottom: .4em;
 }
 .checkdos{
     display: flex;
     justify-content: space-between;
     padding: 1em 0.5em;
-
+}
+.imgcheckdos{
+    padding-right:0.7em;
+}
+.subdosScinco{
+    padding-bottom: .4em;
 }
 .checktres{
     display: flex;
     justify-content: space-between;
     padding: 1em 0.5em;
 }
-p{
-    line-height: 1.5rem;
-}
-.imgcheckuno{
-    padding-right:0.6em;
-}
-.imgcheckdos{
-    padding-right:0.6em;
-}
 .imgchecktres{
-    padding-right:0.6em;
+    padding-right:0.7em;
+}
+.subtresScinco{
+    padding-bottom: .4em;
+}
+.imgcasaS5{
+    width: 40vw;
+    height: 85vh;
+    border-radius: 1em;
 }
 
-/* fin de la quinta section */
+/* ------fin de la quinta section------ */
 
 .seccionseis{
     margin: 6em 3.5em;
@@ -315,11 +427,63 @@ p{
     justify-content: space-between;
 }
 .reseñauno{
-    border: 1px solid gray;
     padding: .6em .8em;
-    border-radius: 10px;
+    border-radius: 1em;
+    box-shadow: 0 1em 1em #EEEEEE;
 }
-
+.perfiluno{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+.imgperfiluno{
+    width: 2.5vw;
+    height: 3.8vh;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.reseñados{
+    padding: .6em .8em;
+}
+.perfildos{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+.imgperfildos{
+    width: 2.5vw;
+    height: 4.5vh;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.reseñatres{
+    padding: .6em .8em;
+}
+.perfiltres{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+.imgperfiltres{
+    width: 2.5vw;
+    height: 4vh;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.reseñacuatro{
+    padding: .6em .8em;
+}
+.perfilcuatro{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+.imgperfilcuatro{
+    width: 2.5vw;
+    height: 4.3vh;
+    border-radius: 50%;
+    margin-right: .5em;
+}
 /* fin de la sexta section */
 
 .seccionsiete{
@@ -333,8 +497,8 @@ p{
 }
 .imgcasaSsiete{
     border-radius: 10px;
-    width: 350px;
-    height: 392px;
+    width: 34vw;
+    height: 60vh;
 }
 .botonquote{
     border: 1px solid #3952B6;
@@ -344,30 +508,34 @@ p{
     padding: .7em 2.3em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    transition: transform .5s;
+}
+.botonquote:hover{
+    transform: scale(1.1);
 }
 .casadentro{
     display: flex;
     justify-content: space-between;
 }
 .imgcuartouno{
-    border-radius: 10px;
-    width: 150px;
-    height: 120px;
+    border-radius: .6em;
+    width: 15vw;
+    height: 18vh;
 }
 .imgcuartodos{
-    border-radius: 10px;
-    width: 150px;
-    height: 120px;
+    border-radius: .6em;
+    width: 15vw;
+    height: 18vh;
 }
 .imgcuartotres{
-    border-radius: 10px;
-    width: 150px;
-    height: 120px;
+    border-radius: .6em;
+    width: 15vw;
+    height: 18vh;
 }
 
-/* fin de la septima section */
+/* -------fin de la septima section------ */
 
-.footer{
+footer{
     display: flex;
     justify-content: space-between;
     margin: 4em 0em;
@@ -432,4 +600,11 @@ p{
     border-radius: 15px;
     background-color: #3952B6;
     color: white;
+    transition: transform .5s;
 }
+.botonsubmit:hover{
+    transform: scale(1.1);
+}
+
+/* ----------fin del footer---------- */
+
